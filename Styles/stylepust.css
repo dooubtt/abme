@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+}
+main h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.btn {
+    display: flex;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: rgb(74, 163, 190);
+    transform: scale(1.05);
+}

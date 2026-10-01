@@ -1,0 +1,99 @@
+h4 {
+    color: white;
+}
+#interests {
+    box-shadow: 0 0 16px rgb(158, 158, 158);
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    min-height: 450px;
+    background-color: rgb(49,49,49);
+    border-radius: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+.interests-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.interest-card {
+    width: 100%;
+    max-width: 180px;
+    min-height: 200px;
+    display: flex;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(188deg, rgb(120, 255, 214),rgb(0, 121, 145));
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    transition: transform .3s, box-shadow .3s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.interest-card:hover {
+    transform: translateY(5px);
+    box-shadow: 0 12px 12px rgba(0, 130, 156, 0.377);
+}
+#goals {
+    font-size: 30px;
+    color: #fff;
+    box-shadow: 0 0 16px rgb(158, 158, 158);
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    min-height: 400px;
+    background-color: rgb(49,49,49);
+    border-radius: 30px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.goals-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.goals-card {
+    width: 100%;
+    max-width: 180px;
+    min-height: 200px;
+    height: auto;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(188deg, rgb(120, 255, 214),rgb(0, 121, 145));
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    transition: transform .3s, box-shadow .3s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.goals-card:hover {
+    transform: translateY(5px);
+    box-shadow: 0 12px 12px rgba(0, 130, 156, 0.377);
+}

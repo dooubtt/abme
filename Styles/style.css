@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(14, 14, 14);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: .3s;
+}
+header {
+    justify-content: center;
+    color: black;
+    background: linear-gradient(188deg, rgb(254, 255, 255) 10%, rgb(120, 255, 214) 52%, rgb(0, 121, 145) 92%);
+    box-shadow: 0 8px 16px rgba(50, 103, 128, 0.87);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 2px 24px;
+    position: relative;
+}
+footer {
+    background: linear-gradient(188deg, rgb(254, 255, 255) 10%, rgb(120, 255, 214) 52%, rgb(0, 121, 145) 92%);
+    box-shadow: 0 8px 16px rgba(50, 103, 128, 0.87);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 12px;
+    position: relative;
+    margin-top: auto;
+}
+#mail-foot {
+    margin-left: auto;
+}
+button {
+    font-family: 'Times New Roman', Times, serif;
+}

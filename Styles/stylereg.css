@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,
+textarea,
+#age {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea {
+    min-height: 60px;
+    max-height: 100px;
+    resize: vertical;
+}
+.regs {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: .3s;
+    padding: 8px 0;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.regs:hover {
+    transform: scale(1.05);
+    background: rgb(74, 163, 190);
+}
+.registr,
+.log {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(188deg, rgb(254, 255, 255) 10%, rgb(120, 255, 214) 52%, rgb(0, 121, 145) 92%);
+    border: none;
+    box-shadow: 0 8px 16px rgba(50, 103, 128, 1);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+}
+.registr {
+    min-height: 400px;
+}
+.log {
+    min-height: 400px;
+}
+small {
+    margin-left: 4px;
+    color: darkcyan;
+    font-weight: normal;
+}
