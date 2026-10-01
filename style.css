@@ -248,7 +248,7 @@ small {
     padding-bottom: 30px;
     flex-direction: column;
     width: 800px;
-    height: 400px;
+    height: 500px;
     background-color: rgb(49,49,49);
     border-radius: 30px;
     font-size: 30px;
@@ -263,9 +263,7 @@ small {
     width: 180px;
     min-height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
     background: linear-gradient(188deg, rgb(120, 255, 214),rgb(0, 121, 145));
     color: #fff;
     font-size: 22px;
@@ -304,6 +302,7 @@ small {
 .goals-card {
     width: 180px;
     min-height: 200px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,4 +321,8 @@ small {
 .goals-card:hover {
     transform: translateY(5px);
     box-shadow: 0 12px 12px rgba(0, 130, 156, 0.377);
+}
+.text-interests {
+    margin-bottom: 30px;
+    color: white;
 }
