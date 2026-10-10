@@ -97,3 +97,9 @@ h4 {
     transform: translateY(5px);
     box-shadow: 0 12px 12px rgba(0, 130, 156, 0.377);
 }
+.video-section {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
